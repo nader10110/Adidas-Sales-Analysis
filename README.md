@@ -1,49 +1,90 @@
-# 👟 Adidas Sales Analysis | Power BI Dashboard
-
-## 📌 Project Overview
-Through this Power BI-driven analysis, **Adidas** aims to empower its decision-makers with data-driven insights, fostering strategic growth and competitiveness in the dynamic sports and athletic industry.
----
-
-## 🚀 Key Business Values
-* **Enhanced Sales Dynamics:** Better understanding of performance drivers.
-* **Geographical Identification:** Pinpointing areas with high and low sales potential.
-* **Inventory & Marketing Support:** Insights into product performance for better stock management.
-* **Profitability Strategies:** Informed pricing and margin strategies for improved ROI.
-* **Actionable Recommendations:** Data-backed suggestions for optimizing profit.
+# 👟 Adidas Sales Performance Analysis (Power BI)
+> **Empowering strategic growth and market competitiveness through data-driven insights.**
 
 ---
 
-## 📊 Dashboard Components
+## 📖 1. The Narrative (Project Overview)
+In the dynamic sports and athletic industry, staying ahead requires more than just a great product; it requires a deep understanding of market pulses. 
 
-### 1. Key Performance Indicators (KPIs)
-I have implemented **Cards** to track the primary metrics:
-* **Total Sales:** Overall revenue generated.
-* **Total Operating Profit:** Net profit after operating costs.
-* **Total Units Sold:** Total volume of products sold.
-* **Avg Price per Unit:** Average cost across different products.
-* **Avg Operating Margin:** The average efficiency of operations.
-
-### 2. Visualizations & Charts
-* **Total Sales by Month (Area Chart):** Visualizing the distribution to identify peak periods and seasonality.
-* **Total Sales by State (Filled Map):** Geographical representation of sales performance across different states.
-* **Total Sales by Region (Donut Chart):** Showing the contribution of each region to total revenue.
-* **Total Sales by Product (Bar Chart):** Analyzing sales distribution among various Adidas product lines.
-* **Total Sales by Retailer (Bar Chart):** Identifying top-performing retailers and partners.
+**The Goal:** This project aims to empower Adidas decision-makers with actionable insights. By analyzing sales dynamics, geographic potential, and product performance, we transform raw data into a strategic roadmap for improved profitability and optimized inventory.
 
 ---
 
-## 🗂️ Data Dictionary
-The analysis is based on the following data points:
-* **Retailer:** The purchasing companies.
-* **Invoice Date:** Transaction dates (covering 2020/2021).
-* **Location:** Region, State, and City.
-* **Product:** The specific item sold.
-* **Financials:** Price per Unit, Units Sold, Total Sales ($Price \times Units$), Operating Profit, and Operating Margin.
-* **Sales Method:** Channel used (In-store, Online, Outlet).
+## 🛠️ 2. The Transformation (Methodology)
+Using **Power BI**, I processed a complex dataset covering the years **2020 and 2021** to create a high-performance analytics dashboard.
+
+* **Data Integration:** Consistently handled invoices, regional data, and sales methods.
+* **KPI Engineering:** Developed 5 core metrics using DAX to track real-time health:
+    * **Total Sales:** [Price * Units Sold]
+    * **Operating Profit**
+    * **Units Sold**
+    * **Average Price per Unit**
+    * **Average Operating Margin (%)**
+* **Geographic Intelligence:** Built a **Filled Map** to visualize state-by-state performance.
 
 ---
 
-## 🛠️ Tools Used
-* **Power BI Desktop**
-* **DAX (Data Analysis Expressions)**
-* **Power Query** (Data Cleaning & Transformation)
+## 🖥️ 3. The Solution: Adidas Interactive Command Center
+The dashboard provides a 360-degree view of the business, allowing for deep-dives into retailers, regions, and product categories.
+
+![Adidas Dashboard Preview](# 👟 Adidas Sales Performance Analysis (Power BI)
+> **Empowering strategic growth and market competitiveness through data-driven insights.**
+
+---
+
+## 📖 1. The Narrative (Project Overview)
+In the dynamic sports and athletic industry, staying ahead requires more than just a great product; it requires a deep understanding of market pulses. 
+
+**The Goal:** This project aims to empower Adidas decision-makers with actionable insights. By analyzing sales dynamics, geographic potential, and product performance, we transform raw data into a strategic roadmap for improved profitability and optimized inventory.
+
+---
+
+## 🛠️ 2. The Transformation (Methodology)
+Using **Power BI**, I processed a complex dataset covering the years **2020 and 2021** to create a high-performance analytics dashboard.
+
+* **Data Integration:** Consistently handled invoices, regional data, and sales methods.
+* **KPI Engineering:** Developed 5 core metrics using DAX to track real-time health:
+    * **Total Sales:** [Price * Units Sold]
+    * **Operating Profit**
+    * **Units Sold**
+    * **Average Price per Unit**
+    * **Average Operating Margin (%)**
+* **Geographic Intelligence:** Built a **Filled Map** to visualize state-by-state performance.
+
+---
+
+## 🖥️ 3. The Solution: Adidas Interactive Command Center
+The dashboard provides a 360-degree view of the business, allowing for deep-dives into retailers, regions, and product categories.
+
+![Adidas Dashboard Preview](dashboard.png)
+*(Note: Replace with your actual dashboard file name in GitHub)*
+
+---
+
+## 🔍 4. Key Performance Insights (The Results)
+Based on the analysis of the **$900M** Sales Period:
+
+* **Financial Powerhouse:** Total Sales reached **$900M** with an **Operating Profit of $332M** and a healthy **42% Operating Margin**.
+* **Peak Periods:** The **Area Chart (Total Sales by Month)** reveals a significant peak in **July ($95M)** followed by a strong performance in August.
+* **Product Performance:** **Men's Street Footwear** is the leading revenue driver, contributing **$0.21bn** to total sales.
+* **Regional Dominance:** The **West Region** represents the largest market share at **30% ($270M)**, followed by the Northeast.
+* **Retailer Impact:** **West Gear** and **Foot Locker** are the top-performing retailers, together driving nearly **$0.46bn** in sales.
+
+---
+
+## 💡 5. Strategic Recommendations
+1.  **Inventory Optimization:** Increase stock levels for **Men's Street Footwear** and **Women's Apparel** during the Q3 peak (July-August) to prevent stockouts.
+2.  **Regional Focus:** Replicate the successful strategies used in the **West Region** across the Midwest and South to boost their current market share.
+3.  **Retailer Synergy:** Strengthen partnerships with **West Gear** and **Foot Locker**, while developing targeted marketing campaigns for retailers like **Walmart** to improve their sales contribution.
+4.  **Pricing Strategy:** Maintain the **42% operating margin** by leveraging the **$45 average price per unit**, while testing premium pricing for top-selling footwear categories.
+
+---
+
+## 🔧 6. Technical Requirements Met
+* **Total Sales by Month (Area Chart):** For peak period identification.
+* **Total Sales by State (Filled Map):** To identify high/low potential geographic areas.
+* **Total Sales by Region (Donut Chart):** To analyze regional contributions.
+* **Total Sales by Product & Retailer (Bar Charts):** For competitive and inventory analysis.
+
+---
+
